@@ -4,6 +4,8 @@ metadata:
   name: devops-poc
   namespace: default
 spec:
+  interval: 15m
+  timeout: 5m
   chart:
     spec:
       chart: devops-poc
